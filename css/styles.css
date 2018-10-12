@@ -1,0 +1,67 @@
+body {
+    background-color: #5D576B;
+    margin: 50px;
+}
+
+h1 {
+    font-family: 'Mukta Vaani', sans-serif;
+    color: #FCCA46;
+    font-size: 8vw;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    white-space: nowrap;
+}
+
+a {
+    color: black;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+nav {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 2vw;
+    word-spacing: 10px;
+    background-color: #A1C181;
+    padding: 2px;
+    text-decoration: none;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    word-spacing: 4px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }  
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+.row {
+    flex-direction: row; 
+}
+
+}
